@@ -1,4 +1,71 @@
-* {
-	margin: 0;
-	padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto+Slab:wght@100..900&display=swap');
+
+.roboto-slab {
+	font-family: "Roboto Slab", serif;
+}
+
+.amatic-sc-regular {
+	font-family: "Amatic SC", sans-serif;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 2rem;
+	flex-direction: row;
+}
+
+.logo {
+	width: 5rem;
+	height: 5rem;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.title {
+	font-size: 2rem;
+	font-weight: 800;
+	font-family: "Roboto Slab", serif;
+	color: #5e3a27;
+	margin-left: 0.8rem;	
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+	margin-left: 3rem;
+}
+
+.menu li {
+    margin-right: 15px;
+	font-family: "Amatic SC", sans-serif;
+	font-size: 1.3rem;
+	font-weight: 900;
+	color: #5e3a27;
+}
+
+.menu li:hover {
+    color: #5e3a27; 
+    text-decoration: underline; 
+    cursor: pointer;
+}
+
+.search {
+	font-size: 1.3rem;
+	margin-left: 1rem;
+}
+
+.input {
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	margin-right: 1rem;
+	border-color: #5e3a27;
+}
+
+.icone {
+	font-size: 1.5rem;
+	margin: 1rem;
 }
