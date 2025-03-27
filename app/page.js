@@ -1,16 +1,11 @@
-"use client";
+import "../styles/globals.css"
+import Header from "../components/Header"
+import logo from "../img/logo.png"
 
-import { useEffect } from "react";
-import { useRouter } from "next/navigation";
-
-export default function Home() {
-    const router = useRouter();
-
-    useEffect(() => {
-        router.push("/signin");
-    }, [router]);
-	
-return (
-	<p>Redirecting …</p>
-);
+export default function Home () {
+    return(
+        <div>
+            <Header image={logo} title="Doces" text="Home" icon="🍭" />
+        </div>
+    );
 }
