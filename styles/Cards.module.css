@@ -1,9 +1,9 @@
 .cards {
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    height: 5vh;
-    width: 3vh;
+    flex-direction: column;
+    height: 20rem;
+    width: 15rem;
     margin: 1vh;
     padding: 1vh;
     border-radius: 5px;
