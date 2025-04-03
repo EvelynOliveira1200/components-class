@@ -2,6 +2,7 @@ import "../styles/home.css"
 import Header from "../components/Header"
 import logo from "../img/logo.png"
 import Cards from "../components/Cards";
+import Categoria from "../components/Categoria";
 import doce1 from "../img/doce01.jpg";
 import doce2 from "../img/doce02.jpg";
 
@@ -43,6 +44,16 @@ export default function Home() {
           />
         ))}
       </div>
+
+      <section className="sectionCategoria">
+        <Categoria icon="🎂" type="Bolos"/>
+        <Categoria icon="🧁" type="Cupcakes"/>
+        <Categoria icon="🍧" type="Sorvetes"/>
+        <Categoria icon="🧋" type="Milk Shake"/>
+        <Categoria icon="🍪" type="Cookies"/> 
+        <Categoria icon="🍰" type="Tortas"/>
+        <Categoria icon="🥤" type="Bebidas"/>
+      </section>
 
     </div>
   );
