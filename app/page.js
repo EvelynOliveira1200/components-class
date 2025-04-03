@@ -11,6 +11,7 @@ import novidade1 from "../img/novidade01.jpg";
 import novidade2 from "../img/novidade2.jpg";
 import novidade3 from "../img/novidade3.jpg";
 import novidade4 from "../img/novidade4.jpg";
+import Footer from "../components/Footer"
 
 
 const card = [
@@ -136,6 +137,26 @@ export default function Home() {
         ))}
       </div>
 
+      <Footer image={logo} title={"La Douceur de Paris"}
+        text1={"A La Douceur de Paris é uma confeitaria especializada em doces finos e sobremesas gourmet."}
+        text2={"Nosso objetivo é proporcionar experiências únicas e inesquecíveis através de nossos produtos."}
+        link={"Links Rápidos"}
+        text3={"Sobre nós"}
+        text4={"Contato"}
+        text5={"Política de Privacidade"}
+        text6={"Termos de Uso"}
+        categoriaFooter={"Categorias"}
+        text7={"Bolos"}
+        text8={"Cupcakes"}
+        text9={"Sorvetes"}
+        text10={"Milk Shake"}
+        redes={"Nossas Redes Sociais"}
+        text11={"Instagram: @ladouceurparis"}
+        text12={"Facebook: @ladouceurparis"}
+        text13={"Twitter: @ladouceurparis"}
+        text14={"Pinterest: @ladouceurparis"}
+        text={"© 2023 La Douceur de Paris. Todos os direitos reservados."}
+      />
     </div>
   );
 }
