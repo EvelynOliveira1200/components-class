@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto+Slab:wght@100..900&display=swap');
+
+.amatic-sc-regular {
+    font-family: "Amatic SC", sans-serif;
+}
+
+.cardCategoria {
+    background-color: #D4B2A7;
+    list-style: none;
+    border-radius: 8px;
+    padding: 10px;
+    min-width: 20vh;
+    max-width: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 2.5vh;
+}
+
+.cardCategoria:hover {
+    transform: scale(1.1);
+}
+

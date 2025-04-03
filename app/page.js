@@ -3,6 +3,8 @@ import Header from "../components/Header"
 import logo from "../img/logo.png"
 import Cards from "../components/Cards";
 import doce1 from "../img/card1.jpg";
+import Categoria from "../components/Categoria";
+import doce1 from "../img/doce01.jpg";
 import doce2 from "../img/doce02.jpg";
 import doce3 from "../img/card3.jpg";
 import doce4 from "../img/card4.jpg";
@@ -49,7 +51,7 @@ const card = [
 
 export default function Home() {
   return (
-    <div>
+    <div className="container">
       <Header image={logo} title="La Douceur de Paris" text1="Home" text2="Destaques" text3="Categorias" text4="Contato" icon1="🔎" icon2="💗" icon3="🛒" icon4="👤" />
       
       <div className="cardsLine">
@@ -65,6 +67,16 @@ export default function Home() {
           />
         ))}
       </div>
+
+      <section className="sectionCategoria">
+        <Categoria icon="🎂" type="Bolos"/>
+        <Categoria icon="🧁" type="Cupcakes"/>
+        <Categoria icon="🍧" type="Sorvetes"/>
+        <Categoria icon="🧋" type="Milk Shake"/>
+        <Categoria icon="🍪" type="Cookies"/> 
+        <Categoria icon="🍰" type="Tortas"/>
+        <Categoria icon="🥤" type="Bebidas"/>
+      </section>
 
     </div>
   );
