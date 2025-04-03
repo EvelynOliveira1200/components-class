@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto+Slab:wght@100..900&display=swap');
+
+.roboto-slab {
+	font-family: "Roboto Slab", serif;
+}
+
+.amatic-sc-regular {
+	font-family: "Amatic SC", sans-serif;
+}
+
+.footer {
+    background-color: #D4B2A7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+    width: 100%;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.footerLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    width: 8rem;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.footerTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5e3a27;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 0.5rem;
+}
+
+.footerHistoria{
+    margin: 1rem;
+    text-align: justify;
+    width: 15rem;
+    margin-left: 2rem;
+}
+
+.footerLink,
+.categoriaFooter,
+.redes {
+    text-align: left;
+    flex: 0.5;
+    margin-top:2rem;
+    margin-left: 2rem;
+}
+
+.footerText {
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    font-family: "Roboto Slab", serif;
+}
+
+.footerLink p:hover,
+.redes p:hover {
+    color: #f5c6aa;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.text {
+    font-size: 0.8rem;
+    color: #ffffff;
+    margin-top: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerHistoria,
+    .footerLink,
+    .categoriaFooter,
+    .redes {
+        text-align: center;
+        margin: 1rem 0;
+    }
+}
+
+
+
