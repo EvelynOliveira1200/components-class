@@ -1,6 +1,7 @@
 import "../styles/home.css"
 import Header from "../components/Header"
 import logo from "../img/logo.png"
+import Banner from "../components/Carrousel"
 import Cards from "../components/Cards";
 import Categoria from "../components/Categoria";
 import Banner from "../components/Banner";
@@ -94,7 +95,8 @@ const novidades = [
 export default function Home() {
   return (
     <div className="container">
-      <Header image={logo} title="La Douceur de Paris" text1="Home" text2="Destaques" text3="Categorias" text4="Contato" icon1="🔎" icon2="💗" icon3="🛒" icon4="👤" />
+      <Header image={logo} title="La Douceur de Paris" text1="Home" text2="Destaques" text3="Categorias" text4="Contato"  />
+      <Banner img={banner} />
 
       <h1 className="destaques">Destaques da Semana</h1>      
       <div className="cardsLine">
@@ -109,7 +111,7 @@ export default function Home() {
             texticon={card.texticon}
           />
         ))}
-      </div>
+      </div> 
 
       <section className="sectionCategoria">
         <Categoria icon="🎂" type="Bolos"/>
