@@ -3,6 +3,7 @@ import Header from "../components/Header"
 import logo from "../img/logo.png"
 import Cards from "../components/Cards";
 import Categoria from "../components/Categoria";
+import Banner from "../components/Banner";
 import doce1 from "../img/cards01.jpg";
 import doce2 from "../img/card02.jpg";
 import doce3 from "../img/card03.jpg";
@@ -134,6 +135,10 @@ export default function Home() {
             texticon={card.texticon}
           />
         ))}
+      </div>
+
+      <div className="divBanner">
+        <Banner title="Fique por dentro das nossas novidades!" text="Seja o primeiro a receber ofertas exclusivas, novidades deliciosas e promoções especiais em nosso cardápio."/>
       </div>
 
     </div>
