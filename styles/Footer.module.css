@@ -37,9 +37,11 @@
 }
 
 .logo {
-    width: 8rem;
+    width: 10rem;
     height: auto;
     margin-bottom: 1rem;
+    border-radius: 50%;
+    margin-top: 1rem;
 }
 
 .footerTitle {
@@ -50,20 +52,15 @@
     margin-bottom: 0.5rem;
 }
 
-.footerHistoria{
-    margin: 1rem;
-    text-align: justify;
-    width: 15rem;
-    margin-left: 2rem;
-}
-
 .footerLink,
+.footerHistoria,
 .categoriaFooter,
 .redes {
     text-align: left;
     flex: 0.5;
     margin-top:2rem;
     margin-left: 2rem;
+    text-align: justify;
 }
 
 .footerText {
