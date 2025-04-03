@@ -1,0 +1,14 @@
+.banner {
+    background-color: #ffffff;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.img {
+    width: 70rem;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
