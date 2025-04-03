@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto+Slab:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 .roboto-slab {
 	font-family: "Roboto Slab", serif;
@@ -8,13 +7,6 @@
 
 .amatic-sc-regular {
 	font-family: "Amatic SC", sans-serif;
-}
-
-.lora{
-  font-family: "Lora", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .cards {
@@ -44,11 +36,10 @@
 }
 
 .title {
-    font-size: 1.2rem; 
+    font-size: 1rem; 
     font-weight: bold;
     color: #5e3a27; 
     font-family: "Roboto Slab", serif;
-    font-weight: bold;
     margin: 0.5rem 1rem; 
 }
 
@@ -64,16 +55,17 @@
     font-size: 0.8rem; 
     color: #555555; 
     margin: 0 1rem 1rem; 
-    font-family: "Lora", serif;
+    font-family:  "Roboto Slab", serif;
     text-align: left;
 }
 
 .name {
-    font-size: 0.8rem; 
+    font-size: 0.7rem; 
     font-weight: bold;
     color: #7d7d7d;
     margin: 0 1rem 1rem; 
     text-align: left;
+    font-family: "Roboto Slab", serif;
 }
 
 .fimcard {
