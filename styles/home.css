@@ -23,7 +23,8 @@
   flex-direction: row;
 	gap: 5vh;
 	justify-content: center;
-  margin: 10vh;
+  margin-bottom: 2rem;
+  width: 100%;
 }
 
 .novidades {
