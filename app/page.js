@@ -115,6 +115,8 @@ export default function Home() {
         ))}
       </div> 
 
+      
+      <h1 className="categorias">Categorias</h1>
       <section className="sectionCategoria">
         <Categoria icon="🎂" type="Bolos"/>
         <Categoria icon="🧁" type="Cupcakes"/>

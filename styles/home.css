@@ -35,6 +35,15 @@
   color: #5e3a27; 
 }
 
+.categorias {
+  display: flex;
+  margin-left: 3rem;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 3rem;
+  color: #5e3a27; 
+  margin-bottom: 2rem;
+}
+
 .destaques {
   display: flex;
   margin-left: 3rem;
