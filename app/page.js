@@ -29,8 +29,8 @@ const card = [
 export default function Home() {
   return (
     <div>
-      <Header image={logo} title="Doces" text="Home" icon="🍭" />
-
+      <Header image={logo} title="La Douceur de Paris" text1="Home" text2="Destaques" text3="Categorias" text4="Contato" icon1="🔎" icon2="💗" icon3="🛒" icon4="👤" />
+      
       <div className="cardsLine">
         {card.map((card) => (
           <Cards
@@ -46,12 +46,4 @@ export default function Home() {
 
     </div>
   );
-
-export default function Home () {
-    return(
-        <div>
-            <Header image={logo} title="La Douceur de Paris" text1="Home" text2="Destaques" text3="Categorias" text4="Contato" icon1="🔎" icon2="💗" icon3="🛒" icon4="👤" />
-        </div>
-    );
-
 }
