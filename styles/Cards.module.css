@@ -1,34 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.roboto-slab {
+	font-family: "Roboto Slab", serif;
+}
+
+.amatic-sc-regular {
+	font-family: "Amatic SC", sans-serif;
+}
+
+.lora{
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .cards {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 20rem;
+    height: 27rem;
     width: 15rem;
-    margin: 1vh;
+    margin: 1rem;
     padding: 1vh;
-    border-radius: 5px;
-    background-color: #d4d4d4;
+    border-radius: 10px; 
+    background-color: #f1ece6da;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.cards:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
 }
 
 .img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
+    width: 100%; 
+    height: 15rem;
+    border-radius: 10px 10px 0 0; 
+    object-fit: cover; 
 }
 
 .title {
-    font-size: 1rem;
+    font-size: 1.2rem; 
     font-weight: bold;
-    color: #000000;
-    margin: 1rem;
+    color: #5e3a27; 
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    margin: 0.5rem 1rem; 
+}
+
+.icons {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0 1rem 1rem; 
+    font-size: 0.8rem;
+}
+
+.description {
+    font-size: 0.8rem; 
+    color: #555555; 
+    margin: 0 1rem 1rem; 
+    font-family: "Lora", serif;
+    text-align: left;
 }
 
 .name {
-    font-size: 0.6rem;
+    font-size: 0.8rem; 
     font-weight: bold;
     color: #7d7d7d;
-    margin: 1rem;
+    margin: 0 1rem 1rem; 
+    text-align: left;
 }
 
+.fimcard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    width:100%;
 
+}    
+
+.valor {
+    font-size: 1rem; 
+    font-weight: bold;
+    color: #7d7d7d;
+    margin: 0 1rem 1rem; 
+    text-align: left;
+}
+
+.iconsfim {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0 2rem 1rem; 
+    font-size: 0.9rem;
+    text-align: right;
+}
 

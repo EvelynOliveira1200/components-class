@@ -1,5 +1,7 @@
 .cardsLine {
   display: flex;
   flex-wrap: row;
-
+  margin: 2rem;
+  justify-content: space-between;
+  align-items: center;
 }
