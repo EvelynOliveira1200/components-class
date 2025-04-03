@@ -1,10 +1,11 @@
 import "../styles/home.css"
 import Header from "../components/Header"
 import logo from "../img/logo.png"
-import Banner from "../components/Carrousel"
+import Carrousel from "../components/Carrousel"
 import Cards from "../components/Cards";
 import Categoria from "../components/Categoria";
 import Banner from "../components/Banner";
+import carrousel from "../img/Banner 1.png"
 import doce1 from "../img/cards01.jpg";
 import doce2 from "../img/card02.jpg";
 import doce3 from "../img/card03.jpg";
@@ -96,7 +97,7 @@ export default function Home() {
   return (
     <div className="container">
       <Header image={logo} title="La Douceur de Paris" text1="Home" text2="Destaques" text3="Categorias" text4="Contato"  />
-      <Banner img={banner} />
+      <Carrousel img={carrousel} />
 
       <h1 className="destaques">Destaques da Semana</h1>      
       <div className="cardsLine">
