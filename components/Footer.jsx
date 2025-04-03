@@ -21,19 +21,21 @@ export default function Footer({
     text12,
     text13,
     text14,
-    redes
+    redes, historia
 }) {
     return (
         <footer className={styles.footer}>
-            <div className={styles.footerContainer}>
+    
             <div className={styles.footerLogo}>
                 <Image className={styles.logo} src={image} />
             </div>
+            
             <div className={styles.footerHistoria}>
+                <h1 className={styles.footerTitle}>{historia}</h1>
                 <p className={styles.footerText}>{text1}</p>
                 <p className={styles.footerText}>{text2}</p>
             </div>
-            </div>
+        
             <div className={styles.footerLink}>
                 <h1 className={styles.footerTitle}>{link}</h1>
                 <p className={styles.footerText}>{text3}</p>

@@ -148,6 +148,7 @@ export default function Home() {
       </div>
 
       <Footer image={logo} title={"La Douceur de Paris"}
+        historia={"Sobre nós"}
         text1={"A La Douceur de Paris é uma confeitaria especializada em doces finos e sobremesas gourmet."}
         text2={"Nosso objetivo é proporcionar experiências únicas e inesquecíveis através de nossos produtos."}
         link={"Links Rápidos"}
